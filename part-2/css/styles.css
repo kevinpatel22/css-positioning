@@ -27,3 +27,30 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+article {
+  display: grid;
+  grid-template-columns: 210px auto;
+  border: 1px solid rgb(184, 148, 148);
+  padding: 20px;
+  position: relative;
+}
+.action-watch-later {
+  position: relative;
+  color: red;
+  bottom: 295px;
+  left: 160px;
+}
+.film-poster {
+  width: 200px;
+  left: 5px;
+}
+.film-details {
+  left: 8px; 
+}
+.action-like {
+  position: absolute;
+  color: red;
+  right: 8px;
+  bottom: 8px;
+}
+
